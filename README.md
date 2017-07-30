@@ -1,7 +1,8 @@
 # kickstart-2017-tdd-kata
 
 ##Task 1
-   Write Tests for the following String "split":
+   
+   - Write Tests for the following String "split":
    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
 ##Task 2  
