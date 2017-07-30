@@ -7,23 +7,23 @@
 
 
  ##Acceptance criteria
- Statement should have transactions in the following format:
+ Statement should have transactions, in descending order, in the following format:
  ```json
  [
    {
-       timestamp: 1501398369859,
-       amount: 500,
-       balance: 1400
+      date: '6/17/2017',
+      amount: 500,
+      balance: 1400
    },
    {
-       timestamp: 1501398369859,
-       amount: -100,
-       balance: 900
+      date: '6/15/2017',
+      amount: -100,
+      balance: 900
    },
    {
-       timestamp: 1501398369859,
-       amount: 1000,
-       balance: 1000
+      date: '6/12/2017',
+      amount: 1000,
+      balance: 1000
     }
  ]
   ```
