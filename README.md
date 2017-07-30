@@ -1,4 +1,14 @@
-# kickstart-2017-tdd-bank-kata
+# kickstart-2017-tdd-kata
+
+##Task 1
+   Write Tests for the following String "split":
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+
+##Task 2  
+  In task2.spec.js write two tests:
+  - Test that calling ObjectUnderTests.fetchAsyncStuff() calls AsyncCollabarator.fetch().
+  - Test that that callback passed to ObjectUnderTests.fetchAsyncStuff() is called if AsyncCollabarator.fetch() is successful. 
+##Task 3
 
  Create a simple bank application with the following features:
  - Deposite into Account
