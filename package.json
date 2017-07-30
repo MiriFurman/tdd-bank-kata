@@ -10,9 +10,9 @@
     "url": ""
   },
   "scripts": {
-    "start": "wix-node-build start --entry-point=./dist/test/mock/fake-server.js",
-    "build": "wix-node-build lint && wix-node-build build",
-    "test": "wix-node-build test",
+    "start": "yoshi start --entry-point=./dist/test/mock/fake-server.js",
+    "build": "yoshi lint && yoshi build",
+    "test": "yoshi test",
     "release": ":"
   },
   "wix": {
@@ -23,7 +23,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "body-parser": "^1.15.0",
-    "chai": "^3.5.0",
+    "chai": "^4.1.0",
     "enzyme": "^2.3.0",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
@@ -31,14 +31,12 @@
     "phantomjs-polyfill": "0.0.2",
     "react-addons-test-utils": "^0.14.8",
     "sinon": "^2.4.1",
-    "wix-node-build": "latest",
-    "wix-statics-parent": "latest"
+    "wix-statics-parent": "latest",
+    "yoshi": "latest"
   },
   "dependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-redux": "^4.4.5",
-    "redux": "^3.5.2",
     "require-reload": "^0.2.2",
     "velocity": "^0.7.2"
   },
