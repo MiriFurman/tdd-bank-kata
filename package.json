@@ -35,8 +35,6 @@
     "yoshi": "latest"
   },
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
     "require-reload": "^0.2.2",
     "velocity": "^0.7.2"
   },
