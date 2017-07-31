@@ -27,10 +27,12 @@
     "enzyme": "^2.3.0",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
+    "mocha": "^3.4.2",
     "node-sass": "^3.8.0",
     "phantomjs-polyfill": "0.0.2",
     "react-addons-test-utils": "^0.14.8",
     "sinon": "^2.4.1",
+    "sinon-chai": "^2.12.0",
     "wix-statics-parent": "latest",
     "yoshi": "latest"
   },
